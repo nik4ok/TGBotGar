@@ -51,7 +51,7 @@ async def add_func(callback: CallbackQuery, state: FSMContext):
         await callback.message.reply('Напишите месяц оплаты')
     if callback.data == 'show':
         try:
-             rb = openpyxl.load_workbook("C:\\TGbotGaraj\\payments.xlsx")
+             rb = openpyxl.load_workbook("payments.xlsx")
         except Exception as e:
             await callback.message.reply(f"Ошибка при загрузке файла: {e}")
             return
