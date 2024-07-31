@@ -1,1 +1,3 @@
 TOKEN_API = "7259639042:AAEnl5l6kthD8RGm29cQA51U45tZNIPosPs"
+payments_token = '1744374395:TEST:faa5b8daa2fdd426e72c'
+
