@@ -12,7 +12,7 @@ import pandas as pd
 def write_to_excel(month, amount, date, status):
     # Попытка открыть существующий файл или создать новый
     try:
-        workbook = openpyxl.load_workbook('payments.xlsx')
+        workbook = openpyxl.load_workbook('/TGBot/payments.xlsx')
     except FileNotFoundError:
         workbook = openpyxl.Workbook()
 
